@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    font-family: "Calibri Light", serif;
+    width: 800px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.newTask {
+    text-align: center;
+}
+
+#input-task {
+    border: none;
+    width: 300px;
+    margin: 0 16px;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    font-family: Calibri, serif;
+    padding-top: 8px;
+}
+
+#add-task-button {
+    font-family: Calibri, serif;
+    background-color: lightpink;
+    border: 2px solid #0D1117;
+    filter: drop-shadow(6px 6px 0px rgba(13, 17, 23, 1));
+    cursor: pointer;
+}
+
+.list {
+}
+
+#task-list {
+    padding-top: 32px;
+    list-style: none;
+    width: 420px;
+    margin: auto;
+}
+
+.list-item {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task {
+    margin: 6px;
+}
+
+.delete-btn {
+    height: 16px;
+    width: 16px;
+    border-radius: 16px;
+    border: none;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+/*input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}*/
+
+
+.done {
+    text-decoration: line-through;
+}
